@@ -1,11 +1,16 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import {StyleSheet} from 'react-native';
+import React, {useContext} from 'react';
+import TasksOutput from '../components/taskoutput/TasksOutput';
+import {TasksContext} from '../store/tasks-context';
 
 const AllTasks = () => {
+  const taskCtx = useContext(TasksContext);
   return (
-    <View>
-      <Text>AllTasks</Text>
-    </View>
+    <TasksOutput
+      tasks={taskCtx.tasks}
+      description="Total"
+      fallbackText="No tasks found"
+    />
   );
 };
 

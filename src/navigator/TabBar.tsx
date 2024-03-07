@@ -5,11 +5,11 @@ import AllTasks from '../screens/AllTasks';
 
 const BottomTabs = createBottomTabNavigator();
 
-const TasksOverview = () => {
+const TabBar = () => {
   <BottomTabs.Navigator>
     <BottomTabs.Screen name="RecentTasks" component={RecentTasks} />
     <BottomTabs.Screen name="AllTasks" component={AllTasks} />
   </BottomTabs.Navigator>;
 };
 
-export default TasksOverview;
+export default TabBar;
