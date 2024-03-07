@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "marginHorizontal": 4,
+        "marginVertical": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#c6affc",
+          "fontSize": 12,
+          "marginBottom": 4,
+        },
+        undefined,
+      ]
+    }
+  >
+    Test Label
+  </Text>
+  <TextInput
+    style={
+      [
+        {
+          "backgroundColor": "#c6affc",
+          "borderRadius": 6,
+          "color": "#2d0689",
+          "fontSize": 18,
+          "padding": 6,
+        },
+      ]
+    }
+  />
+</View>
+`;

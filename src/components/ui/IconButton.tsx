@@ -1,5 +1,4 @@
 import {Pressable, StyleSheet} from 'react-native';
-// import CustomIcon from './CustomIcon';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 interface IconButtonProps {
