@@ -1,4 +1,3 @@
-import {StyleSheet} from 'react-native';
 import React, {useContext} from 'react';
 import TasksOutput from '../components/taskoutput/TasksOutput';
 import {TasksContext} from '../store/tasks-context';
@@ -13,7 +12,5 @@ const AllTasks = () => {
     />
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default AllTasks;
